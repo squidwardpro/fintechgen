@@ -17,7 +17,7 @@ Where `<report_id>` is the content stored in `report.txt`.
 First read the contents of the report file located in the user's downloads directory.
 
 ```bash
-REPORT_ID=$(cat ~/downloads/report.txt)
+REPORT_ID=$(cat env)
 ```
 
 Example:
