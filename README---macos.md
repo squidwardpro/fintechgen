@@ -1,4 +1,4 @@
-## Generating a Report Image From `report.txt`
+## Generating a Report Image 
 
 This workflow reads a report identifier from a file and uses it to render a financial report image inside an HTML page.
 
@@ -17,7 +17,7 @@ Where `<report_id>` is the content stored in `env`.
 First read the contents of the report file located in the user's downloads directory.
 
 ```bash
-REPORT_ID=$(cat env)
+REPORT_ID=$(env)
 ```
 
 Example:
